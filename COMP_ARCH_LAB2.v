@@ -28,31 +28,31 @@ NS = s0;
 end
 
 s1:begin
-if(I==0)
-NS = s2;
-else
+if(I==1)
 NS = s1;
+else
+NS = s2;
 end
 
 s2:begin
-if(I==0)
-NS = s3;
-else
+if(I==1)
 NS = s1;
+else
+NS = s3;
 end
 
 s3:begin
-if(I==0)
-NS = s0;
-else
+if(I==1)
 NS = s1;
+else
+NS = s0;
 end
 
 s4:begin
-if(I==0)
-NS = s2;
-else
+if(I==1)
 NS = s1;
+else
+NS = s2;
 end
 
 default:NS = s0;
